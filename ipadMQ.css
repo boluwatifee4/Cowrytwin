@@ -1,0 +1,159 @@
+
+@media only screen and (max-width:1078px) and (min-width:768px){
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       scroll-behavior: smooth;
+   }
+    .home-text h1{
+    width: 70%;
+   } 
+   .home-text p{
+       width: 75%;
+   }
+   .d-badge{
+       max-width: 50%;
+       margin-left: 4rem;
+   }
+   .cwise-bg{
+       width: 65%;
+   }
+   .legal-badgeup{
+       width: 30%;
+       margin-left: 3rem;
+   }
+   .card-left{
+       width: 65%;
+   }
+   .cad2, .cad3, .cad4{
+       width: 100%;
+   }
+   #arrow{
+       margin-left: 1.5rem;
+       margin-top: 1rem;
+   }
+   #arrow4{
+       margin-left: 1.5rem;
+   }
+   .card-right{
+       max-width: 65%;
+   }
+   #arrowr{
+       margin-left: 1.5rem;
+       margin-top: 1rem;
+   }
+   .cad-img{
+       margin-right: 0rem;
+   }
+   .grid-container{
+       width: 65%;
+       margin: 0px 0px;
+   }
+   .g-img{
+       margin-right: 0rem;
+   }
+   .security-section{
+       max-width: 65%;
+       margin-left: 0rem;
+   }
+   .secure-grid{
+       width:100%;
+       margin-right: 0rem;
+       margin-left: 0rem;
+   }
+   .sub-sg{
+       margin-left: 1rem;
+   }
+   .explanation:before{
+    top: 13.2rem;
+    left: 15px;
+    }
+    .explanations:before{
+     top: 21.5rem ;
+     left: 15px;
+    }
+    .explanationz:before{
+     top: 30rem;
+     left: 15px;
+    }
+    .explanationx:before{
+     top: 38.3rem;
+     left: 15px;
+    }
+    .testimonies{
+        width: 65%;
+        margin-left: 0rem;
+    }
+    .story-content h4{
+        width: 90%;
+        font-size: 1rem;
+        margin-left:25px;
+      }
+      .story-content{
+          overflow: visible;
+      }
+      .story-author{
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+      }
+      .story-author span{
+        font-size: 15px;
+      }
+      .story-btn  {
+        font-size: 15px;
+        margin-left: 30px;
+      }  
+      .story-content{
+          height: 100%;
+      }
+      .app-grid{
+        width: 65%;
+      }
+      .star{
+        font-size: 1.5rem;
+        margin-right: 15rem;
+
+      }
+      .rate-img img{
+        margin-left: 19rem;
+        margin-top: -5rem;
+        width: 30%;
+        
+      }
+      .rate2-img img{
+        margin-left: 19rem;
+        margin-top: -5rem;
+        width: 30%;
+      }
+      .signup-footer{
+        width: 65%;
+        padding-top: 40px;
+        margin-left: 0rem;
+      }
+      .inner-sf{
+          margin-left: 3rem;
+          width: 100%;
+      }
+      .inner-sf h3{
+          width: 65%;
+      }
+      .four-columns{
+          width: 65%;
+          margin-left: 0px;
+          margin-right: 0px;
+      }
+      .fc-grid{
+          margin-right: 0rem;
+      }
+      .legal-info{
+          margin-left: 1rem;
+          gap: 2rem;
+      }
+      .legal-text{
+          width: 65%;
+          margin-left: .5rem;
+          font-size: .7rem;
+      }
+}
