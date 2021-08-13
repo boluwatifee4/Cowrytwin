@@ -256,6 +256,9 @@ display:none;
     align-items: center;
     gap: 0;
   }
+  .container{
+    width: 100%;
+  }
   .home-content{
     margin: 0 0 ;
     max-width: 87%;
@@ -397,6 +400,7 @@ display:none;
   top: 51.3rem;
   left: 15px;
  }
+
  .security-section:after {
   display: none;
 }
@@ -405,11 +409,14 @@ display:none;
   font-size: 15px;
 }
 .perk-sub h1{
-  width: 30%;
+  width: 100%;
+  margin-right: 0rem;
   font-size: 28px;
 }
 .perk-sub{
   margin-left: 5px;
+  margin-right: 0px;
+
 }
 .perks{
   margin-bottom: 1rem;

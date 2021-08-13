@@ -432,7 +432,7 @@ transition-duration: .5s;
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 80px;
   padding: 10px;
   margin-right: 10rem;
   width: 100%;
@@ -443,7 +443,7 @@ transition-duration: .5s;
   font-size: 30px;
 }
 .g-img{
-  width: 58%;
+  width: 48%;
   margin: 7rem;
 }
 #bg-img{
@@ -453,7 +453,7 @@ transition-duration: .5s;
   background-size: 100%;
 }
 h3{
-  margin: 8.9rem;
+  margin: 7.5rem;
   text-align: left;
   color: #212b69;
   font-family: Helmet-regular;
@@ -535,8 +535,11 @@ content: "";
 }
 .step-itemcontent p{
   font-family: Helmet-regular;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color:rgba(2,43,105,.6);
+  width: 90%;
+  text-align: left;
+  margin-left: 1.5rem;
 }
 .signup-step{
   float: left;
@@ -703,11 +706,11 @@ label{
   background-image: url(.//cwise-images/security-img.svg);
   background-repeat: no-repeat;
   height: 790px;
-  width: 780px;
+  width: 500px;
   background-position: 126px;
   background-size: 110%;
   position: absolute;
-  right: -150px;
+  right: 0px;
   top: 100px;
   opacity: .5;
 }
@@ -721,8 +724,7 @@ label{
 .perk-grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 40px 80px;
-  grid-gap: 10px;
+  grid-template-rows: 40px 55px;
   padding: 10px;
 }
 
@@ -733,12 +735,13 @@ label{
   margin-top: 20px;
 }
 .perk-sub h6{
-  margin-right: 65rem;
+  width: 100%;
   font-size: 20px;
    color: #022b69;;
 }
 .perk-sub h1{
-  margin-right: 50rem;
+  margin-right: 1rem;
+  width: 100%;
   color: rgba(2,43,105,.6);
 }
 /* end of perk section styling */
@@ -773,7 +776,7 @@ label{
 }
 .story-content h4{
   line-height: 1.6;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin-left: 15px;
   margin-top: 3rem;
   font-family: Helmet-regular;
@@ -893,7 +896,9 @@ label{
     margin-bottom: 8rem;
     box-shadow: 0 59px 51px -34px rgb(0 103 245 / 30%);
     padding: 75px 10px;
-    width: 93%;
+    width: 100%;
+    width: 95%;
+    margin-left: 2rem;
 }
 .sf-grid{
   display: grid;
@@ -967,6 +972,8 @@ button {
   display: grid;
   margin-bottom: 50px;
   grid-template-columns: auto auto auto auto;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
 .fc-grid{
   box-sizing: border-box;
@@ -1028,11 +1035,12 @@ hr {
   color: #6c82a3;
 }
 .legal-info{
-  margin: 40px 0 20px;
+  margin: 40px 1px 20px;
     width: 93%;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin-left: 2.7rem;
 }
 .legal-badge{
   background: #fff;
