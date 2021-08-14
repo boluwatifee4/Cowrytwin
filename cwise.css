@@ -515,7 +515,6 @@ content: "";
 .step-itemnum:after {
   counter-increment: itemnum;
   content: "0"
-  
    counter(itemnum);
   font-size: 2rem;
   color: #0066f5;
@@ -875,9 +874,10 @@ label{
 }
 .card-caction {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 10px;
   color: #0066f5;
   letter-spacing: .7px;
+  font-family: Helmet-regular;
 }
 .rate2-img img{
   width: 29%;
@@ -954,7 +954,7 @@ button {
   top: 6px;
   color: #022b69;
     border: none;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color: #fff;
     max-height: 48px;
     line-height: 48px;
