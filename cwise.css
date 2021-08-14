@@ -3,12 +3,7 @@
   font-family: Helmet-regular;
   src: url(helmet-1.0/Helmet-Regular.ttf);
 }
-.toggle-btn i{
-  color: #0066f5;
-  font-size: 20px;
-  margin-left: 16rem;
-  margin-top:2rem;
-}
+
 .toggle-btn{
   display: none;
 }
@@ -19,25 +14,28 @@
 }
 
 .logo {
-    margin-top: 35px;
     margin-bottom: 0;
-    position: absolute;
-    margin-left: 35px;
 }
 .logo img{
   width: 100%;
 }
+.logo-nav{
+  display: flex;
+  align-items: center;
+}
+.nav{
+  margin-left: 20px;
+}
 nav{
-  position: -webkit-sticky;      /*not working*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
 }
 
 
 .nav ul{
-    margin-left: 13rem;
     list-style: none;
-    position: absolute;
-    margin-top: 40px;
-    padding-left: 20px;
 }
 
 .nav li a{
@@ -51,21 +49,10 @@ nav{
   color: #212b69;
 }
 .nav-btn1 {
-    float: right;
-    margin-top: 30px;
-    margin-right: 3rem;
+
     font-size: 20px;
-    
-    
 }
 
-.nav-btn1 {
-    padding: 5px 10px;
-    
-}
-a.lo{
-  margin-top: 1rem;
-}
 
 .lo{
     border-style: solid;
@@ -98,56 +85,49 @@ transition-duration: .5s;
     border-color: #0066f5;
     font-family:Helmet-regular;
 }
-
 .home{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 5rem;
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  margin-left: 2rem;
 }
-.home-content{
-  margin-bottom: 0px;
-  margin:0px 10px;
+.home-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
 }
 .home-text h1{
-  text-rendering: geometricPrecision;
     color: #022b69;
     font-size: 4.3rem;
     letter-spacing: -.4px;
     line-height: 1.25;
-    margin-bottom: .7em;
-    margin-left: 1.2rem;
+    margin-bottom: .5em;
     font-weight: 700;
     font-family: Helmet-regular;
-    margin-top: 5rem;
     max-width: 100%;
 }
 .home-text p{
-  text-rendering: geometricPrecision;
     color: #022b69;
-    margin-top: 0;
+    padding-right: 7rem;
+    margin-bottom: 1rem;
     max-width: 100%;
     line-height: 1.7;
-    margin: 15px 0;
     font-weight: 400;
     font-size: 1.2rem;
-    margin-left: 1.2rem;
     font-family: Helmet-regular;
 }
-.home-text{
-  margin-top: 15rem;
+
+.d-badge{
+  display: flex;
+  align-items: center;
 }
-  .cwise-bg{
-    margin-top: 13rem;
-  }
   .d-badge img{
     max-width: 30%;
   }
   .d-badge .google{
     max-width: 36%;
   }
-  .d-badge .apple{
-    margin-bottom: .5rem;
-  }
+
 
 .legal-badgeup{
   background: #fff;
@@ -427,7 +407,7 @@ transition-duration: .5s;
     font-size: 30px;
     margin-left: 11px;
  }
- 
+
 /* 3rd section styling */
 .grid-container {
   display: grid;

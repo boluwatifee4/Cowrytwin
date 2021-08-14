@@ -1,7 +1,4 @@
 @media only screen and (max-width:411px) and (min-width:300px){
-    .toggle-btn{
-        margin-left:4rem ;
-    }
     .home-content{
         width: 100%;
         margin-left: .8rem;

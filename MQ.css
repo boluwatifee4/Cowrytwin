@@ -247,42 +247,38 @@ display:none;
 @media only screen and (max-width:890px) and (min-width:320px){
  .toggle-btn{
    display: block;
-   margin-left: 5rem;
-   font-size: 3rem;
+    color: #0066f5;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
  }
- 
+ .home-contents{
+   justify-content: center;
+   align-items: center;
+ }
   .nav-btn1{
     display: none;
   }
   .nav{
     display: none;
   }
+
   .home{
-    grid-template-columns: auto;
+    flex-direction: column;
     align-items: center;
-    gap: 0;
-    width: 100%;
+    margin-left: 0px;
   }
   .container{
     width: 100%;
   }
-  .home-content{
-    margin-left: 3rem ;
-    max-width: 100%;
-    align-items: center;
-  }
+
   .home-text{
     margin-top: 6rem;
+    margin-left: 0px;
   }
-  .logo img{
-    width: 80%;
-  }
-  .logo {
-    margin-top: 35px;
-    margin-bottom: 0;
-    position: absolute;
-    margin-left: 15px;
-}
+
+
 .home-text h1{
   font-size: 2rem;
   text-align: center;
@@ -294,27 +290,20 @@ display:none;
   font-size: 17px;
   margin-left: 0rem;
   text-align: center;
-  padding: 0 0px;
+  padding: 0rem 1rem;
   width: 100%;
 }
 .d-badge{
   display: flex;
-  margin-right: 0rem;
-  padding: 0 0px;
+  align-items: center;
 }
 
 
-.d-badge .google{
-  max-width: 50%;
-  margin-bottom: .3rem;
-}
+
 .google img{
   
 }
-.d-badge .apple{
-  
-  margin-bottom: .9rem;
-}
+
 .grid-container{
   grid-template-columns: 1fr;
   margin-left: 1.4rem;
@@ -686,11 +675,19 @@ display:none;
   }
 }
 @media only screen and (max-width:500px) and (min-width:414px){
- .toggle-btn{
-   margin-left: 7rem;
- }
+  .home-contents{
+    justify-content: center;
+    align-items: center;
+  }
+  .home-contents img{
+    align-self: center;
+  }
  nav{
-   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   align-items: center;
+   align-content: center;
  }
   .app-grid .appcard{
     margin-left: 1rem;
@@ -710,12 +707,9 @@ display:none;
   .testy-grid{
     margin-left: 0px;
   }
-  .home-content{
-    margin-left: 1rem;
-    width: 88%;
-  }
+
   .home-text p{
-    padding: 0 .5rem;
+    padding: 0rem 1rem;
   }
   .apple{
     width: 100px;
@@ -724,13 +718,11 @@ display:none;
     width: 100px;
     
   }
-  .d-badge, .google, img{
-    margin-bottom: 2rem;
-  }
+
   .d-badge{
     gap: .1rem;
-    margin-left: 5rem;
     height: 35px;
+    justify-content: center;
   }
   .legal-badgeup{
     margin-left: 5rem;
@@ -741,9 +733,7 @@ display:none;
     padding: 0rem;
     width: 98%;
   }
-  .cwise-bg{
-    margin-left: .5rem;
-  }
+
   .g-img{
     margin: 0rem;
   }
