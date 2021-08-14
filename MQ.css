@@ -302,19 +302,17 @@ display:none;
   margin-right: 0rem;
   padding: 0 0px;
 }
-.d-badge img{
-  max-width:100%;
-}
+
 
 .d-badge .google{
   max-width: 50%;
   margin-bottom: .3rem;
 }
 .google img{
-  width:  90%;
+  
 }
 .d-badge .apple{
-  max-width: 40%;
+  
   margin-bottom: .9rem;
 }
 .grid-container{
@@ -688,7 +686,13 @@ display:none;
   }
 }
 @media only screen and (max-width:500px) and (min-width:414px){
- .app-grid .appcard{
+ .toggle-btn{
+   margin-left: 3rem;
+ }
+ nav{
+   width: 80%;
+ }
+  .app-grid .appcard{
     margin-left: 1rem;
     width: 90%;
   }
@@ -708,17 +712,24 @@ display:none;
   }
   .home-content{
     margin-left: 0rem;
+    width: 88%;
   }
   .home-text p{
     padding: 0 .5rem;
   }
+  .apple{
+    width: 100px;
+  }
   .google{
-    width: 50%;
+    width: 100px;
+    
+  }
+  .d-badge, .google, img{
+    margin-bottom: 2rem;
   }
   .d-badge{
-    width: 90%;
-    gap: 1.5rem;
-    margin-left: 1rem;
+    gap: .1rem;
+    margin-left: 3rem;
   }
   .legal-badgeup{
     margin-left: 5rem;
@@ -729,6 +740,9 @@ display:none;
     padding: 0rem;
     width: 98%;
   }
+  .cwise-bg{
+    margin-left: .5rem;
+  }
   .g-img{
     margin: 0rem;
   }
@@ -737,10 +751,14 @@ display:none;
     width: 98%;
     margin-left: .15rem;
   }
+  .fc-grid{
+    margin-right: 0px;
+  }
   .legal-text {
-    width: 95%;
-    margin-left: .5rem;
-    font-size: .7rem;
+    width: 100%;
+    margin:5px;                                ;
+    font-size: .6rem;
+    padding: .1rem;
   }
   .social-footer{
     width: 85%;
@@ -771,5 +789,8 @@ display:none;
     .legal-badge{
       width: 60%;
       margin-left: 4rem;
+    }
+    .lb-img{
+      margin-bottom: 0px;
     }
 }

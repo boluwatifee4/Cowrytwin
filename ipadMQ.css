@@ -6,25 +6,39 @@
        box-sizing: border-box;
        scroll-behavior: smooth;
    }
+   .toggle-btn{
+       margin-left: 25rem;
+       font-size: 50px;
+   }
     .home-text h1{
-    width: 70%;
+    width: 100%;
    } 
+   .home-content{
+       margin-left: 0rem;
+   }
    .home-text p{
-       width: 75%;
+       width: 100%;
+       padding: 0 35px;
    }
-   .d-badge{
-       max-width: 50%;
-       margin-left: 4rem;
-   }
+   .apple{
+    height: 30px;
+}
+.google{
+    height: 40px;
+}
+.d-badge{
+    margin-left: 18rem;
+}
    .cwise-bg{
-       width: 65%;
+       width: 90%;
    }
    .legal-badgeup{
        width: 30%;
-       margin-left: 3rem;
+       margin-left: 15rem;
    }
    .card-left{
-       width: 65%;
+       width: 100%;
+       margin-left: 0rem;
    }
    .cad2, .cad3, .cad4{
        width: 100%;
@@ -37,7 +51,8 @@
        margin-left: 1.5rem;
    }
    .card-right{
-       max-width: 65%;
+       max-width: 100%;
+       margin-left: 0rem;
    }
    #arrowr{
        margin-left: 1.5rem;
@@ -47,14 +62,15 @@
        margin-right: 0rem;
    }
    .grid-container{
-       width: 65%;
+       width: 100%;
        margin: 0px 0px;
    }
    .g-img{
        margin-right: 0rem;
+       width: 50%;
    }
    .security-section{
-       max-width: 65%;
+       max-width: 100%;
        margin-left: 0rem;
    }
    .secure-grid{
@@ -82,13 +98,13 @@
      left: 15px;
     }
     .testimonies{
-        width: 65%;
+        width: 100%;
         margin-left: 0rem;
     }
     .story-content h4{
-        width: 90%;
-        font-size: 1rem;
-        margin-left:25px;
+        width: 100%;
+        font-size: 2rem;
+        margin-left:0px;
       }
       .story-content{
           overflow: visible;
@@ -109,28 +125,30 @@
           height: 100%;
       }
       .app-grid{
-        width: 65%;
+        width: 80%;
+        margin-left: 2rem
       }
+      
       .star{
         font-size: 1.5rem;
         margin-right: 15rem;
 
       }
       .rate-img img{
-        margin-left: 19rem;
+        margin-left: 24rem;
         margin-top: -5rem;
         width: 30%;
         
       }
       .rate2-img img{
-        margin-left: 19rem;
+        margin-left: 24rem;
         margin-top: -5rem;
         width: 30%;
       }
       .signup-footer{
-        width: 65%;
+        width: 85%;
         padding-top: 40px;
-        margin-left: 0rem;
+        margin-left: 2rem;
       }
       .inner-sf{
           margin-left: 3rem;
@@ -140,19 +158,23 @@
           width: 65%;
       }
       .four-columns{
-          width: 65%;
-          margin-left: 0px;
+          width: 100%;
+          margin-left: 2rem;
           margin-right: 0px;
       }
       .fc-grid{
           margin-right: 0rem;
       }
       .legal-info{
-          margin-left: 1rem;
+          margin-left: rem;
           gap: 2rem;
       }
+      .legal-badge{
+          width: 60%;
+          margin-left:8rem;
+      }
       .legal-text{
-          width: 65%;
+          width: 100%;
           margin-left: .5rem;
           font-size: .7rem;
       }

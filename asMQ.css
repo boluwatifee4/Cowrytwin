@@ -1,0 +1,44 @@
+@media only screen and (max-width:411px) and (min-width:300px){
+    .toggle-btn{
+        margin-left:4rem ;
+    }
+    .home-content{
+        width: 100%;
+        margin-left: .8rem;
+    }
+    .apple{
+        height: 30px;
+    }
+    .google{
+        height: 40px;
+    }
+    .d-badge{
+        margin-left: 4rem;
+    }
+    .card-left{
+        margin-left: .5rem;
+    }
+    .card-right{
+        margin-left: .5rem;
+    }
+    .grid-container{
+        margin-left: .5rem;
+    }
+    .g-img{
+        margin-right: 0px;
+    }
+    .testy-grid{
+        margin-left: 0rem;
+    }
+   .app-grid .appcard{
+        margin-left: 1rem;
+        width: 85%;
+    }
+    .signup-footer{
+        margin-left: 0rem;
+  }
+  .legal-badge{
+      width: 55%;
+      margin-top: 20px;
+  }
+}
