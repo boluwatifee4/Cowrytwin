@@ -733,7 +733,15 @@ display:none;
     padding: 0rem;
     width: 98%;
   }
-
+  .step-itemcontent{
+    text-align: left;
+}
+.step-itemcontent span{
+    margin-left: 1.5rem;
+}
+.step-itemcontent p{
+    padding-right: 3rem;
+}
   .g-img{
     margin: 0rem;
   }

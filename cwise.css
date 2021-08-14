@@ -11,6 +11,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-justify: distribute;
+    font-family: Helmet-regular;
+
 }
 
 .logo {
@@ -236,6 +239,7 @@ transition-duration: .5s;
     letter-spacing: -1px;
     font-size: 2.5rem;
     color: #022b69;
+    font-family: Helmet-regular;
   }
 
   .cad-text{
@@ -244,7 +248,7 @@ transition-duration: .5s;
     margin: 15px 0;
     font-weight: 400;
     font-size: 20px;
-    padding-left: 19px;
+    padding-left: 6px;
   }
  
   #arrow{
@@ -258,6 +262,8 @@ transition-duration: .5s;
     font-weight: 600;
     text-decoration: none;
     margin-right: 23rem;
+    font-family: Helmet-regular;
+
   }
   #arrowr{
     background: none;
@@ -270,6 +276,8 @@ transition-duration: .5s;
     font-weight: 600;
     text-decoration: none;
     margin-right: 23rem;
+    font-family: Helmet-regular;
+
   }
 
   .kad-img{
@@ -295,6 +303,7 @@ transition-duration: .5s;
     margin: 10px;
     font-size: 2.86rem;
     color: #022b69;
+    font-family: Helmet-regular;
  }
  #par{
      font-size: 20px;
@@ -312,6 +321,8 @@ transition-duration: .5s;
     flex-direction: column;
     position: relative;
     overflow-y: hidden;
+    font-family: Helmet-regular;
+    
     /* margin-top: 100px; */
  }
  @keyframes mymove {
@@ -421,6 +432,7 @@ transition-duration: .5s;
 .grid-container > div {
   text-align: center;
   font-size: 30px;
+  font-family: Helmet-regular;
 }
 .g-img{
   width: 48%;

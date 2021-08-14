@@ -10,7 +10,7 @@
         height: 40px;
     }
     .d-badge{
-        margin-left: 4rem;
+        margin-left: 6rem;
     }
     .card-left{
         margin-left: .5rem;
@@ -28,7 +28,7 @@
         margin-left: 0rem;
     }
    .app-grid .appcard{
-        margin-left: 1rem;
+        margin-left: 3rem;
         width: 85%;
     }
     .signup-footer{
@@ -38,4 +38,53 @@
       width: 55%;
       margin-top: 20px;
   }
+  .step-itemcontent{
+      text-align: left;
+  }
+  .step-itemcontent span{
+      margin-left: 1.5rem;
+  }
+  .step-itemcontent p{
+      padding-right: 3rem;
+  }
+  .explanation:before{
+    top: 14.89rem;
+    left: 15px;
+    }
+    .explanations:before{
+     top: 24.25rem ;
+     left: 15px;
+    }
+    .explanationz:before{
+     top: 33.8rem;
+     left: 15px;
+    }
+    .explanationx:before{
+     top: 43.2rem;
+     left: 15px;
+    }
+}
+@media only screen and (max-width:411px) and (min-width:360px){
+    .explanation:before{
+        top: 14.89rem;
+        left: 15px;
+        }
+        .explanations:before{
+         top: 25.3rem ;
+         left: 15px;
+        }
+        .explanationz:before{
+         top: 36rem;
+         left: 15px;
+        }
+        .explanationx:before{
+         top: 46.5rem;
+         left: 15px;
+        }
+}
+
+@media only screen and (max-width:411px) and (min-width:375px){
+    .app-grid .appcard{
+        margin-left: 1.5rem;
+    }
 }
