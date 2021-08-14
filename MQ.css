@@ -687,7 +687,7 @@ display:none;
 }
 @media only screen and (max-width:500px) and (min-width:414px){
  .toggle-btn{
-   margin-left: 3rem;
+   margin-left: 7rem;
  }
  nav{
    width: 80%;
@@ -711,7 +711,7 @@ display:none;
     margin-left: 0px;
   }
   .home-content{
-    margin-left: 0rem;
+    margin-left: 1rem;
     width: 88%;
   }
   .home-text p{
@@ -729,7 +729,8 @@ display:none;
   }
   .d-badge{
     gap: .1rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
+    height: 35px;
   }
   .legal-badgeup{
     margin-left: 5rem;
