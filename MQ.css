@@ -304,7 +304,7 @@ display:none;
   padding: 0 0px;
 }
 .d-badge img{
-  max-width:60%;
+  max-width:100%;
 }
 
 .d-badge .google{
