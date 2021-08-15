@@ -3,16 +3,18 @@
   font-family: Helmet-regular;
   src: url(helmet-1.0/Helmet-Regular.ttf);
 }
-
 .toggle-btn{
   display: none;
+}
+sub{
+  color: rgba(2,43,105,.6);
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-justify: distribute;
-    font-family: Helmet-regular;
+     font-family: Helmet-regular;
 
 }
 
@@ -460,7 +462,7 @@ h3{
 }
 
 .steps-timeline{
-  counter-reset: item;
+  counter-reset: step-itemnum;
     margin-top: 60px;
 }
 .steps-line{
@@ -494,7 +496,7 @@ span{
   position: relative;
 }
 .step-itemnum:before{
-content: "";
+content: "0";
     background-color: rgba(162,227,252,.4);
     border-radius: 100%;
     height: 60px;
@@ -505,8 +507,8 @@ content: "";
     left: -17px;
 }
 .step-itemnum:after {
-  counter-increment: itemnum;
-  content: "0"
+  counter-increment: item;
+  content:"0"
    counter(itemnum);
   font-size: 2rem;
   color: #0066f5;
